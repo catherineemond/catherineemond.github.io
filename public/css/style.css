@@ -28,7 +28,7 @@ body {
 
 .fixed {
   position: fixed;
-  top: 68px;
+  top: 60px;
   left: 0;
   width: 100%;
 }
@@ -446,6 +446,10 @@ footer {
 @media (max-width: 670px) {
   span:first-child .hover-effect:hover {
     -webkit-text-fill-color: white !important;
+  }
+
+  header .blog {
+    width: 100%;
   }
 }
 
